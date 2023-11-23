@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        UserName: <input type="text" placeholder="Enter Email" required="true"><br>
+        Password: <input type="password" placeholder="Password"><br>
+        <input type="submit">
+    </form>
+    <!--form using label-->
+    <form action="">
+        <label for="username">UserName:</label>
+        <input type="text" id="username" placeholder="Enter Eamil" required="true"><br>
+        <label for="user_password">Password:</label>
+        <input type="password" id="user_password"><br>
+        <input type="submit">
+    </form><hr>
+
+    <!--Exploring different input types-->
+    <!--DATE input type-->
+    <form action="/you_lost_coder">
+        <label for="date">Date:</label>
+        <input type="date"><br><hr>
+
+        <!--Input type File-->
+        <label for="file">File:</label>
+        <input type="file" id="file"><br><hr>
+
+        <!--Input type Colour-->
+        <label for="color">Colour:</label>
+        <input type="color" id="color"><br><hr>
+
+        <!--Input type Range-->
+        <label for="range">Price Range:</label>
+        <input type="range" id="range"><br><hr>
+
+        <!--Input type Button-->
+        <label for="button">Poke Me:</label>
+        <input type="button" id="button" value="poked"><br>
+
+        <input type="submit"><br><hr>
+
+    </form>
+
+     <!--Radio Button-->   
+    <form action="/HelloWorld">
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="Male">  
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other"><br>
+        <input type="submit">     
+    </form><hr>
+             
+    <!--Select type-->
+    <form action="/country_Selected">
+        <label for="country">Select your country:</label>
+        <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Other">other</option>
+        </select>
+
+    </form><hr>
+
+    <form action="">
+        <textarea name="Feedback" id="feedback" cols="30" rows="10" placeholder="Give feedback"></textarea>
+    </form>
+
+    <!--iFrame Use-->
+    <iframe src="https://web.whatsapp.com/" width="900px" height="300px"></iframe>
+</body>
+</html>
